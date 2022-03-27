@@ -1,0 +1,30 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  opacity: 0.9;
+  background-color: #340e40;
+}
+
+.sidebarOption_icon {
+  padding: 10px;
+  /* here with help of !important basically tried to override the font-size of MUI */
+  font-size: 16px !important;
+}
+
+.sidebarOption_channel {
+  padding: 10px 0;
+}
+
+.sidebarOption_hash {
+  padding: 10px;
+}
+
+.sidebarOption > h3 {
+  font-weight: 500;
+}
